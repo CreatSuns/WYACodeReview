@@ -7,93 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0809BA58EFB051C35D26AE291FCBD719 /* Pods-WYACodeReview_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA293ABD8EA38F4F658CA82EEF4A0E8 /* Pods-WYACodeReview_Tests-dummy.m */; };
-		083DE8B7EAEFA17BAAAA26F034D6034E /* format-objc-file.sh in Resources */ = {isa = PBXBuildFile; fileRef = 191DD542C016AD59018E111879E10CA7 /* format-objc-file.sh */; };
-		092D71D524179F2881E074006573C50E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1630726CCDCE0251418A3C2CB1C2AA7B /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 2B449B4CFCD8A2B21885BAC5B21A92EE /* Gemfile.lock */; };
-		19573B6E8C2710995F9DFB270F4202E4 /* custom in Resources */ = {isa = PBXBuildFile; fileRef = 33557A19F95BC9B69C0610C04B05F811 /* custom */; };
-		3A6D7796B93C81F1562D7C6ADAAEE032 /* Testing Support in Resources */ = {isa = PBXBuildFile; fileRef = 3E549AE19EE0B0683929FF113A008A3B /* Testing Support */; };
-		4447C08501DA8F1DBB61E6B5C29A2D74 /* CocoaPodsDummy.m in Resources */ = {isa = PBXBuildFile; fileRef = FBDBB9C6D0B440D77A53B5DB210FB795 /* CocoaPodsDummy.m */; };
-		463024706934C28A1C890ACB0EA58C81 /* format-objc-file-dry-run.sh in Resources */ = {isa = PBXBuildFile; fileRef = 6D285F10B305B6DC645E500A50ED4B7D /* format-objc-file-dry-run.sh */; };
-		47716282C5AFAE93BF87FE62FA3C0F8F /* setup-repo.sh in Resources */ = {isa = PBXBuildFile; fileRef = 82FEC05B87270128F0C5A4388E6CF8FA /* setup-repo.sh */; };
-		76A6F784A523EF2335D7F3A117252E78 /* Contributing.md in Resources */ = {isa = PBXBuildFile; fileRef = 04CC3AE41867ADCBA62325D5F4DD2217 /* Contributing.md */; };
-		7749BC82E0976BAB2E73ADCB8C9C7B77 /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 3455734766819E9637A5C3166D44C9B8 /* lib */; };
-		7FA32CA7C6AAC3EADB9FBB9F8AC6CB41 /* bin in Resources */ = {isa = PBXBuildFile; fileRef = 5E25B37A438058432C23016947309905 /* bin */; };
-		826FE3F4DC6A92C25D99D7DF85051C7F /* format-objc-files-in-repo.sh in Resources */ = {isa = PBXBuildFile; fileRef = FB3A21B2CA15D4476CEE1F966F0724AF /* format-objc-files-in-repo.sh */; };
-		83398326F3E49E3EF783651DEFF2B6D7 /* format-objc-hook in Resources */ = {isa = PBXBuildFile; fileRef = 377FC8049FBFD35D4C81606FF63CFCB1 /* format-objc-hook */; };
-		8C64C662B24A9351E4E3C84DFC3DA6C8 /* Pods-WYACodeReview_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0597EB10986ED5A13E2C039E5BE434 /* Pods-WYACodeReview_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90BD590288305BCFEB46DDCB7CA4EEA4 /* SpaceCommander.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 1CB2045CA6B7C67E75A98EC55488920F /* SpaceCommander.podspec */; };
-		98515F100F5741B265C70EE92DC79714 /* test.sh in Resources */ = {isa = PBXBuildFile; fileRef = 91D69ACF254E84C57526C9C7F37E3571 /* test.sh */; };
-		9BF02F66CD95C0824CA7493A525DF865 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5A7508EA384CC5D20A304494F9F5E659 /* LICENSE */; };
-		C92473E02BEEB3AFC0D143B229AF6278 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4CC5445D7856B9382832BEB4211A8A65 /* README.md */; };
-		EB5B6205C41E0D6EC79B8C4DC1AE5962 /* format-objc-files.sh in Resources */ = {isa = PBXBuildFile; fileRef = 54344C07C81C36E71B1FA909FDDA29A4 /* format-objc-files.sh */; };
-		F7801C452C29AA13B585B1648650BE4C /* format-objc-mobuild in Resources */ = {isa = PBXBuildFile; fileRef = 79D994B455C578CAE4BB7E77331D0849 /* format-objc-mobuild */; };
-		FDC77D8D740E234C5136E61E0FA84A44 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = F5C755B2AE6313BFA031DA34E865323A /* Gemfile */; };
+		0D9841A371094BD4A8FB29F5D3927B85 /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 7FF8097726CBA03611392A9ADF8A183D /* Gemfile.lock */; };
+		21B9C09403BD604742438848D354D3F2 /* Testing Support in Resources */ = {isa = PBXBuildFile; fileRef = 6C66CE3973E84CB4F4794DFACA21D927 /* Testing Support */; };
+		2771002587FECCC02D9815EA12364298 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 788B334B9B20C4A4D27CE60FDD9C0C2A /* Gemfile */; };
+		394FEE456CA08C6ACCB938582E1AF0E9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8A3E9D1361489AE0E39AAEB0FD44793F /* README.md */; };
+		42A8A989CBA0DF1B72C5E6254A4827E7 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8542BA3E0B0AE06F1CDCE033B66FB555 /* LICENSE */; };
+		43F6AC520C19BB2167712A4EF4BF1244 /* CocoaPodsDummy.m in Resources */ = {isa = PBXBuildFile; fileRef = 62279AB0F83A99DE491FB686CD9ED6F8 /* CocoaPodsDummy.m */; };
+		47DFF6F19915A864325D68E40B8416A1 /* setup-repo.sh in Resources */ = {isa = PBXBuildFile; fileRef = 31B350986B35AE4E2033F1F45D9FFEB1 /* setup-repo.sh */; };
+		71C85D15DDDF265A40D7D777F6834046 /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE965592118EC18A7A2CE99D4BE9E96 /* lib */; };
+		73F6CE833F5D9FED3EDEABEF09F8C7A7 /* format-objc-files-in-repo.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9F36A8465FAE71CFBD4A619899BE9BA1 /* format-objc-files-in-repo.sh */; };
+		7DE3C4D8A73E6B480BDEB2189F3A7216 /* test.sh in Resources */ = {isa = PBXBuildFile; fileRef = D3D7B0E0D13BD8A7CA25F4C32176D861 /* test.sh */; };
+		90827DB389AE70BBD961670F6C7E0143 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DF943B8B9F692CD330316EFDDF7BA002 /* ReplaceMe.m */; };
+		95BF88C52A51A53F7391BFE294B52737 /* WYACodeReview.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D02D29EBB8C9486EDB2F20A8B6706D80 /* WYACodeReview.bundle */; };
+		9FA2BA75BF671628DD223D8D8F831571 /* Pods-WYACodeReview_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A0597EB10986ED5A13E2C039E5BE434 /* Pods-WYACodeReview_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3B7C97E12A58BEB2218D86B3996C722 /* WYACodeReview-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F54D4F5B094EF61888CDA323B4466ED /* WYACodeReview-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A60D3F6A3B611586342538D2EE43388B /* format-objc-hook in Resources */ = {isa = PBXBuildFile; fileRef = 8F99E67E3056972728B2CCDF986E6278 /* format-objc-hook */; };
+		AA0DDB639FA850E70EFFE5E4AE80A725 /* bin in Resources */ = {isa = PBXBuildFile; fileRef = 33577D0E162955188E3ED86B4410883E /* bin */; };
+		B7C03B64A2EF81A09909AE1F701AFAD5 /* format-objc-file.sh in Resources */ = {isa = PBXBuildFile; fileRef = 656790B8DA94A7A34C811BC62458901E /* format-objc-file.sh */; };
+		B8A24C1E083B707AF97D24E53F7FB141 /* format-objc-files.sh in Resources */ = {isa = PBXBuildFile; fileRef = FCA6009E70841C9C18D69AA3E3951084 /* format-objc-files.sh */; };
+		BC1D91BE2E39904846E17FC849BBFBB5 /* Contributing.md in Resources */ = {isa = PBXBuildFile; fileRef = 9033F3F5967F6DAF03BD6CF21978CBDD /* Contributing.md */; };
+		C13F17B8DA625C98EF6B547936C25365 /* custom in Resources */ = {isa = PBXBuildFile; fileRef = E085B698053FC92259127BF4C8349B6C /* custom */; };
+		C7667ADD8F54ABEED38696236AF1A983 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CBCB2C492F2968A76901C4DCDF8584D5 /* format-objc-mobuild in Resources */ = {isa = PBXBuildFile; fileRef = ED05EC5518904A7A61746F453C66F8EA /* format-objc-mobuild */; };
+		CEE12385DDFAA6EA52EFE36E5CF8D442 /* WYACodeReview-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FB8A513ABE6D343DF546801C05F9B7 /* WYACodeReview-dummy.m */; };
+		EF3A56F371FD135B93B813E11C072033 /* format-objc-file-dry-run.sh in Resources */ = {isa = PBXBuildFile; fileRef = 708485B209B5CCFB1F95F28FD96F1D59 /* format-objc-file-dry-run.sh */; };
+		F03DF3E03E86C1C395934AE33ADF5865 /* Pods-WYACodeReview_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA293ABD8EA38F4F658CA82EEF4A0E8 /* Pods-WYACodeReview_Tests-dummy.m */; };
+		F3FF1A4BD2FD4257E06CCF238DB031E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FA6911C82B2402CD710FC8EC6C70469F /* SpaceCommander.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 40DE88A161C0119C959E8D6DC980EE7E /* SpaceCommander.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		289CF62AB198B5297C744E6984609641 /* PBXContainerItemProxy */ = {
+		5A5CF19B94050D03B453190CE6543AFC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 265B1851F82494C3145AB92D1B7B45F4;
+			remoteGlobalIDString = 16B5F041DA9A89B2934F135D52B24C33;
+			remoteInfo = WYACodeReview;
+		};
+		D00A9D1CBC02A9E5B70DFE0F38B3BDE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCB42D1FA6BCBF36BFFAF580A4F0C59B;
 			remoteInfo = "WYACodeReview-WYACodeReview";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04CC3AE41867ADCBA62325D5F4DD2217 /* Contributing.md */ = {isa = PBXFileReference; includeInIndex = 1; name = Contributing.md; path = WYACodeReview/Assets/Contributing.md; sourceTree = "<group>"; };
-		191DD542C016AD59018E111879E10CA7 /* format-objc-file.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = "format-objc-file.sh"; path = "WYACodeReview/Assets/format-objc-file.sh"; sourceTree = "<group>"; };
+		0861366C1340F3432EAD824F20AC1F8B /* WYACodeReview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WYACodeReview.framework; path = WYACodeReview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F54D4F5B094EF61888CDA323B4466ED /* WYACodeReview-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYACodeReview-umbrella.h"; sourceTree = "<group>"; };
+		197D2DFFC09A8C7D5CCFBD4BA5C0A020 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1A0597EB10986ED5A13E2C039E5BE434 /* Pods-WYACodeReview_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYACodeReview_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1C226E134C2A711FFB27BD5B33326D34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1CB2045CA6B7C67E75A98EC55488920F /* SpaceCommander.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SpaceCommander.podspec; path = WYACodeReview/Assets/SpaceCommander.podspec; sourceTree = "<group>"; };
-		2B449B4CFCD8A2B21885BAC5B21A92EE /* Gemfile.lock */ = {isa = PBXFileReference; includeInIndex = 1; name = Gemfile.lock; path = WYACodeReview/Assets/Gemfile.lock; sourceTree = "<group>"; };
-		33557A19F95BC9B69C0610C04B05F811 /* custom */ = {isa = PBXFileReference; includeInIndex = 1; name = custom; path = WYACodeReview/Assets/custom; sourceTree = "<group>"; };
-		3455734766819E9637A5C3166D44C9B8 /* lib */ = {isa = PBXFileReference; includeInIndex = 1; name = lib; path = WYACodeReview/Assets/lib; sourceTree = "<group>"; };
-		377FC8049FBFD35D4C81606FF63CFCB1 /* format-objc-hook */ = {isa = PBXFileReference; includeInIndex = 1; name = "format-objc-hook"; path = "WYACodeReview/Assets/format-objc-hook"; sourceTree = "<group>"; };
-		3E549AE19EE0B0683929FF113A008A3B /* Testing Support */ = {isa = PBXFileReference; includeInIndex = 1; name = "Testing Support"; path = "WYACodeReview/Assets/Testing Support"; sourceTree = "<group>"; };
+		1FE965592118EC18A7A2CE99D4BE9E96 /* lib */ = {isa = PBXFileReference; includeInIndex = 1; name = lib; path = WYACodeReview/Assets/lib; sourceTree = "<group>"; };
+		25A8BD286B384CF9088031980EEB2A3B /* WYACodeReview.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYACodeReview.xcconfig; sourceTree = "<group>"; };
+		26FB8A513ABE6D343DF546801C05F9B7 /* WYACodeReview-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYACodeReview-dummy.m"; sourceTree = "<group>"; };
+		31B350986B35AE4E2033F1F45D9FFEB1 /* setup-repo.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = "setup-repo.sh"; path = "WYACodeReview/Assets/setup-repo.sh"; sourceTree = "<group>"; };
+		32BADEC3AC61A0DEE93D00F96460CCF3 /* WYACodeReview.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WYACodeReview.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		33577D0E162955188E3ED86B4410883E /* bin */ = {isa = PBXFileReference; includeInIndex = 1; name = bin; path = WYACodeReview/Assets/bin; sourceTree = "<group>"; };
+		3EA5EDF018398F1F3267E89F36812D0A /* WYACodeReview.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYACodeReview.modulemap; sourceTree = "<group>"; };
+		40DE88A161C0119C959E8D6DC980EE7E /* SpaceCommander.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SpaceCommander.podspec; path = WYACodeReview/Assets/SpaceCommander.podspec; sourceTree = "<group>"; };
 		4745C78A756D6C1C1EC0FE8097368D75 /* Pods-WYACodeReview_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYACodeReview_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4CC5445D7856B9382832BEB4211A8A65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = WYACodeReview/Assets/README.md; sourceTree = "<group>"; };
-		54344C07C81C36E71B1FA909FDDA29A4 /* format-objc-files.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = "format-objc-files.sh"; path = "WYACodeReview/Assets/format-objc-files.sh"; sourceTree = "<group>"; };
 		54C8226AFBA234BDAF0A36FB6513DFEB /* Pods-WYACodeReview_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYACodeReview_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5A7508EA384CC5D20A304494F9F5E659 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = WYACodeReview/Assets/LICENSE; sourceTree = "<group>"; };
-		5E25B37A438058432C23016947309905 /* bin */ = {isa = PBXFileReference; includeInIndex = 1; name = bin; path = WYACodeReview/Assets/bin; sourceTree = "<group>"; };
+		62279AB0F83A99DE491FB686CD9ED6F8 /* CocoaPodsDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CocoaPodsDummy.m; path = WYACodeReview/Assets/CocoaPodsDummy.m; sourceTree = "<group>"; };
 		62D0CE8161245084CF6AA869716BA5B9 /* Pods-WYACodeReview_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYACodeReview_Tests-resources.sh"; sourceTree = "<group>"; };
+		656790B8DA94A7A34C811BC62458901E /* format-objc-file.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = "format-objc-file.sh"; path = "WYACodeReview/Assets/format-objc-file.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6D285F10B305B6DC645E500A50ED4B7D /* format-objc-file-dry-run.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = "format-objc-file-dry-run.sh"; path = "WYACodeReview/Assets/format-objc-file-dry-run.sh"; sourceTree = "<group>"; };
-		6E91C887DF2841E39D97A316DD0D9B32 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7563FD6E1F2E21ACEC7A85D4C608ACC9 /* ResourceBundle-WYACodeReview-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WYACodeReview-Info.plist"; sourceTree = "<group>"; };
-		79D994B455C578CAE4BB7E77331D0849 /* format-objc-mobuild */ = {isa = PBXFileReference; includeInIndex = 1; name = "format-objc-mobuild"; path = "WYACodeReview/Assets/format-objc-mobuild"; sourceTree = "<group>"; };
-		82FEC05B87270128F0C5A4388E6CF8FA /* setup-repo.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = "setup-repo.sh"; path = "WYACodeReview/Assets/setup-repo.sh"; sourceTree = "<group>"; };
-		89F0BFFD99F15D9FBEF655A99BCBD4AA /* WYACodeReview.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WYACodeReview.bundle; path = "WYACodeReview-WYACodeReview.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C66CE3973E84CB4F4794DFACA21D927 /* Testing Support */ = {isa = PBXFileReference; includeInIndex = 1; name = "Testing Support"; path = "WYACodeReview/Assets/Testing Support"; sourceTree = "<group>"; };
+		708485B209B5CCFB1F95F28FD96F1D59 /* format-objc-file-dry-run.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = "format-objc-file-dry-run.sh"; path = "WYACodeReview/Assets/format-objc-file-dry-run.sh"; sourceTree = "<group>"; };
+		788B334B9B20C4A4D27CE60FDD9C0C2A /* Gemfile */ = {isa = PBXFileReference; includeInIndex = 1; name = Gemfile; path = WYACodeReview/Assets/Gemfile; sourceTree = "<group>"; };
+		7FF8097726CBA03611392A9ADF8A183D /* Gemfile.lock */ = {isa = PBXFileReference; includeInIndex = 1; name = Gemfile.lock; path = WYACodeReview/Assets/Gemfile.lock; sourceTree = "<group>"; };
+		8542BA3E0B0AE06F1CDCE033B66FB555 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = WYACodeReview/Assets/LICENSE; sourceTree = "<group>"; };
+		8A3E9D1361489AE0E39AAEB0FD44793F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = WYACodeReview/Assets/README.md; sourceTree = "<group>"; };
 		8BA293ABD8EA38F4F658CA82EEF4A0E8 /* Pods-WYACodeReview_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYACodeReview_Tests-dummy.m"; sourceTree = "<group>"; };
-		91D69ACF254E84C57526C9C7F37E3571 /* test.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = test.sh; path = WYACodeReview/Assets/test.sh; sourceTree = "<group>"; };
+		8F99E67E3056972728B2CCDF986E6278 /* format-objc-hook */ = {isa = PBXFileReference; includeInIndex = 1; name = "format-objc-hook"; path = "WYACodeReview/Assets/format-objc-hook"; sourceTree = "<group>"; };
+		9033F3F5967F6DAF03BD6CF21978CBDD /* Contributing.md */ = {isa = PBXFileReference; includeInIndex = 1; name = Contributing.md; path = WYACodeReview/Assets/Contributing.md; sourceTree = "<group>"; };
 		91EB8E9FDE2CCFCE43574FE1D3A3AD03 /* Pods-WYACodeReview_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYACodeReview_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A91F0392D4879648740485769B4BCB8B /* Pods_WYACodeReview_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYACodeReview_Tests.framework; path = "Pods-WYACodeReview_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B519358AF404F79D61125835580FA265 /* WYACodeReview.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WYACodeReview.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D03350E2E0D457D9028875FF4AE9F61 /* WYACodeReview-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYACodeReview-prefix.pch"; sourceTree = "<group>"; };
+		9F36A8465FAE71CFBD4A619899BE9BA1 /* format-objc-files-in-repo.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = "format-objc-files-in-repo.sh"; path = "WYACodeReview/Assets/format-objc-files-in-repo.sh"; sourceTree = "<group>"; };
+		B39CB371ABD0849B07CB5AB2A23D9C50 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B6255A3A4A78D99C89AD904805CDFCEF /* Pods_WYACodeReview_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WYACodeReview_Tests.framework; path = "Pods-WYACodeReview_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DDB5E37DA027130EAB5718B04799BC /* Pods-WYACodeReview_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYACodeReview_Tests.modulemap"; sourceTree = "<group>"; };
+		D02D29EBB8C9486EDB2F20A8B6706D80 /* WYACodeReview.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = WYACodeReview.bundle; path = "WYACodeReview-WYACodeReview.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D7B0E0D13BD8A7CA25F4C32176D861 /* test.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = test.sh; path = WYACodeReview/Assets/test.sh; sourceTree = "<group>"; };
 		D4BF63C4B077C18D3C4462C4B6827E67 /* Pods-WYACodeReview_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYACodeReview_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E9FFAE4D5D1AD365490E1314A7912F9C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F5C755B2AE6313BFA031DA34E865323A /* Gemfile */ = {isa = PBXFileReference; includeInIndex = 1; name = Gemfile; path = WYACodeReview/Assets/Gemfile; sourceTree = "<group>"; };
+		D9E9E1BEBF37FFC6B17E3A796C9C68EB /* ResourceBundle-WYACodeReview-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-WYACodeReview-Info.plist"; sourceTree = "<group>"; };
+		DF943B8B9F692CD330316EFDDF7BA002 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WYACodeReview/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E085B698053FC92259127BF4C8349B6C /* custom */ = {isa = PBXFileReference; includeInIndex = 1; name = custom; path = WYACodeReview/Assets/custom; sourceTree = "<group>"; };
+		ED05EC5518904A7A61746F453C66F8EA /* format-objc-mobuild */ = {isa = PBXFileReference; includeInIndex = 1; name = "format-objc-mobuild"; path = "WYACodeReview/Assets/format-objc-mobuild"; sourceTree = "<group>"; };
+		F36FE69B6B243C505622DC266872FB4A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F81F48A45170453C5F782C1A0FA6AC84 /* Pods-WYACodeReview_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYACodeReview_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FB3A21B2CA15D4476CEE1F966F0724AF /* format-objc-files-in-repo.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = "format-objc-files-in-repo.sh"; path = "WYACodeReview/Assets/format-objc-files-in-repo.sh"; sourceTree = "<group>"; };
-		FBDBB9C6D0B440D77A53B5DB210FB795 /* CocoaPodsDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CocoaPodsDummy.m; path = WYACodeReview/Assets/CocoaPodsDummy.m; sourceTree = "<group>"; };
+		FCA6009E70841C9C18D69AA3E3951084 /* format-objc-files.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = "format-objc-files.sh"; path = "WYACodeReview/Assets/format-objc-files.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		41AAAA628DF08FF1A559B9D9CDDD62EC /* Frameworks */ = {
+		38F0FFA0882C4791D9EB2FBE7B506D22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				092D71D524179F2881E074006573C50E /* Foundation.framework in Frameworks */,
+				F3FF1A4BD2FD4257E06CCF238DB031E4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A5E73BB809DECBC833FEA779E4E363E /* Frameworks */ = {
+		997B55C427450F162D44707AED421CB4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A761DA461F6CC8C12AA061EA2D787F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7667ADD8F54ABEED38696236AF1A983 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,23 +146,38 @@
 			path = "Target Support Files/Pods-WYACodeReview_Tests";
 			sourceTree = "<group>";
 		};
-		3F24656D3E3A94F79953EE7B0B5DA424 /* Pod */ = {
+		1C4D5400E9C4615D7A7AAC15D183BE57 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6E91C887DF2841E39D97A316DD0D9B32 /* LICENSE */,
-				E9FFAE4D5D1AD365490E1314A7912F9C /* README.md */,
-				B519358AF404F79D61125835580FA265 /* WYACodeReview.podspec */,
+				B39CB371ABD0849B07CB5AB2A23D9C50 /* LICENSE */,
+				197D2DFFC09A8C7D5CCFBD4BA5C0A020 /* README.md */,
+				32BADEC3AC61A0DEE93D00F96460CCF3 /* WYACodeReview.podspec */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		794D699C3AA857EF12FB865E945E3570 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F36FE69B6B243C505622DC266872FB4A /* Info.plist */,
+				D9E9E1BEBF37FFC6B17E3A796C9C68EB /* ResourceBundle-WYACodeReview-Info.plist */,
+				3EA5EDF018398F1F3267E89F36812D0A /* WYACodeReview.modulemap */,
+				25A8BD286B384CF9088031980EEB2A3B /* WYACodeReview.xcconfig */,
+				26FB8A513ABE6D343DF546801C05F9B7 /* WYACodeReview-dummy.m */,
+				9D03350E2E0D457D9028875FF4AE9F61 /* WYACodeReview-prefix.pch */,
+				0F54D4F5B094EF61888CDA323B4466ED /* WYACodeReview-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WYACodeReview";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F743992AFD73BD05A7C8EF4EC889D601 /* Development Pods */,
+				B86AAFE4C51E126675A9E4C317098B8A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C848A374C6B03287CB134187EA54C20C /* Products */,
+				CD5C3B5235904674C9C064B8322B3486 /* Products */,
 				829669C90A7231BF362A5CF654E63078 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -147,6 +190,52 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		89B91BEC07CD22015D6F29B4741C24A3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33577D0E162955188E3ED86B4410883E /* bin */,
+				62279AB0F83A99DE491FB686CD9ED6F8 /* CocoaPodsDummy.m */,
+				9033F3F5967F6DAF03BD6CF21978CBDD /* Contributing.md */,
+				E085B698053FC92259127BF4C8349B6C /* custom */,
+				656790B8DA94A7A34C811BC62458901E /* format-objc-file.sh */,
+				708485B209B5CCFB1F95F28FD96F1D59 /* format-objc-file-dry-run.sh */,
+				FCA6009E70841C9C18D69AA3E3951084 /* format-objc-files.sh */,
+				9F36A8465FAE71CFBD4A619899BE9BA1 /* format-objc-files-in-repo.sh */,
+				8F99E67E3056972728B2CCDF986E6278 /* format-objc-hook */,
+				ED05EC5518904A7A61746F453C66F8EA /* format-objc-mobuild */,
+				788B334B9B20C4A4D27CE60FDD9C0C2A /* Gemfile */,
+				7FF8097726CBA03611392A9ADF8A183D /* Gemfile.lock */,
+				1FE965592118EC18A7A2CE99D4BE9E96 /* lib */,
+				8542BA3E0B0AE06F1CDCE033B66FB555 /* LICENSE */,
+				8A3E9D1361489AE0E39AAEB0FD44793F /* README.md */,
+				31B350986B35AE4E2033F1F45D9FFEB1 /* setup-repo.sh */,
+				40DE88A161C0119C959E8D6DC980EE7E /* SpaceCommander.podspec */,
+				D3D7B0E0D13BD8A7CA25F4C32176D861 /* test.sh */,
+				6C66CE3973E84CB4F4794DFACA21D927 /* Testing Support */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B5639F49DA8445662C75910F851814E6 /* WYACodeReview */ = {
+			isa = PBXGroup;
+			children = (
+				DF943B8B9F692CD330316EFDDF7BA002 /* ReplaceMe.m */,
+				1C4D5400E9C4615D7A7AAC15D183BE57 /* Pod */,
+				89B91BEC07CD22015D6F29B4741C24A3 /* Resources */,
+				794D699C3AA857EF12FB865E945E3570 /* Support Files */,
+			);
+			name = WYACodeReview;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B86AAFE4C51E126675A9E4C317098B8A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5639F49DA8445662C75910F851814E6 /* WYACodeReview */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,39 +244,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C848A374C6B03287CB134187EA54C20C /* Products */ = {
+		CD5C3B5235904674C9C064B8322B3486 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A91F0392D4879648740485769B4BCB8B /* Pods_WYACodeReview_Tests.framework */,
-				89F0BFFD99F15D9FBEF655A99BCBD4AA /* WYACodeReview.bundle */,
+				B6255A3A4A78D99C89AD904805CDFCEF /* Pods_WYACodeReview_Tests.framework */,
+				D02D29EBB8C9486EDB2F20A8B6706D80 /* WYACodeReview.bundle */,
+				0861366C1340F3432EAD824F20AC1F8B /* WYACodeReview.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		CFE951B0813D3A7FBD2F1B61901C46C6 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5E25B37A438058432C23016947309905 /* bin */,
-				FBDBB9C6D0B440D77A53B5DB210FB795 /* CocoaPodsDummy.m */,
-				04CC3AE41867ADCBA62325D5F4DD2217 /* Contributing.md */,
-				33557A19F95BC9B69C0610C04B05F811 /* custom */,
-				191DD542C016AD59018E111879E10CA7 /* format-objc-file.sh */,
-				6D285F10B305B6DC645E500A50ED4B7D /* format-objc-file-dry-run.sh */,
-				54344C07C81C36E71B1FA909FDDA29A4 /* format-objc-files.sh */,
-				FB3A21B2CA15D4476CEE1F966F0724AF /* format-objc-files-in-repo.sh */,
-				377FC8049FBFD35D4C81606FF63CFCB1 /* format-objc-hook */,
-				79D994B455C578CAE4BB7E77331D0849 /* format-objc-mobuild */,
-				F5C755B2AE6313BFA031DA34E865323A /* Gemfile */,
-				2B449B4CFCD8A2B21885BAC5B21A92EE /* Gemfile.lock */,
-				3455734766819E9637A5C3166D44C9B8 /* lib */,
-				5A7508EA384CC5D20A304494F9F5E659 /* LICENSE */,
-				4CC5445D7856B9382832BEB4211A8A65 /* README.md */,
-				82FEC05B87270128F0C5A4388E6CF8FA /* setup-repo.sh */,
-				1CB2045CA6B7C67E75A98EC55488920F /* SpaceCommander.podspec */,
-				91D69ACF254E84C57526C9C7F37E3571 /* test.sh */,
-				3E549AE19EE0B0683929FF113A008A3B /* Testing Support */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -198,55 +262,72 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		DBF165BD2BE18F61DAC9473C96C04481 /* WYACodeReview */ = {
-			isa = PBXGroup;
-			children = (
-				3F24656D3E3A94F79953EE7B0B5DA424 /* Pod */,
-				CFE951B0813D3A7FBD2F1B61901C46C6 /* Resources */,
-				DFCAE63BC52250FE79E5BA4D55ECF060 /* Support Files */,
-			);
-			name = WYACodeReview;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		DFCAE63BC52250FE79E5BA4D55ECF060 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7563FD6E1F2E21ACEC7A85D4C608ACC9 /* ResourceBundle-WYACodeReview-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WYACodeReview";
-			sourceTree = "<group>";
-		};
-		F743992AFD73BD05A7C8EF4EC889D601 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DBF165BD2BE18F61DAC9473C96C04481 /* WYACodeReview */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		01867206FE26B8E2FC52E7D2C04807AB /* Headers */ = {
+		95A8578A1B78D8F0AE3318AC70E1FBF7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C64C662B24A9351E4E3C84DFC3DA6C8 /* Pods-WYACodeReview_Tests-umbrella.h in Headers */,
+				9FA2BA75BF671628DD223D8D8F831571 /* Pods-WYACodeReview_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F475DB6E767B5A68005EFE530FF765F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B7C97E12A58BEB2218D86B3996C722 /* WYACodeReview-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		265B1851F82494C3145AB92D1B7B45F4 /* WYACodeReview-WYACodeReview */ = {
+		16B5F041DA9A89B2934F135D52B24C33 /* WYACodeReview */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D09D8A40F528C08B9666EAC67911430 /* Build configuration list for PBXNativeTarget "WYACodeReview-WYACodeReview" */;
+			buildConfigurationList = 5B54E001FFAD9155D93DDEAA6EBF8030 /* Build configuration list for PBXNativeTarget "WYACodeReview" */;
 			buildPhases = (
-				4154E335E97FCDBDE15905E2C44710A0 /* Sources */,
-				6A5E73BB809DECBC833FEA779E4E363E /* Frameworks */,
-				32A7CED48514DC373925F9B3F68DE2A6 /* Resources */,
+				344D99B718BA9EE0ABD8EADF9D7C63B9 /* Sources */,
+				38F0FFA0882C4791D9EB2FBE7B506D22 /* Frameworks */,
+				F27A90E145FD4B810884EC3BE84F63F9 /* Resources */,
+				F475DB6E767B5A68005EFE530FF765F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB9583B3D6E9560C0AB8BACC52649E14 /* PBXTargetDependency */,
+			);
+			name = WYACodeReview;
+			productName = WYACodeReview;
+			productReference = 0861366C1340F3432EAD824F20AC1F8B /* WYACodeReview.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A39979EC420E2E54F16B0ABA2685621F /* Pods-WYACodeReview_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD2EBEB2644B97B887EA900EB99F785 /* Build configuration list for PBXNativeTarget "Pods-WYACodeReview_Tests" */;
+			buildPhases = (
+				B2F2FCCCB98C0B3943AFF56695618B92 /* Sources */,
+				A761DA461F6CC8C12AA061EA2D787F78 /* Frameworks */,
+				95A8578A1B78D8F0AE3318AC70E1FBF7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B83072FCE8B26019E0920DDCC17B79ED /* PBXTargetDependency */,
+			);
+			name = "Pods-WYACodeReview_Tests";
+			productName = "Pods-WYACodeReview_Tests";
+			productReference = B6255A3A4A78D99C89AD904805CDFCEF /* Pods_WYACodeReview_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CCB42D1FA6BCBF36BFFAF580A4F0C59B /* WYACodeReview-WYACodeReview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E80E6BFF60AA6AB790286F220740218 /* Build configuration list for PBXNativeTarget "WYACodeReview-WYACodeReview" */;
+			buildPhases = (
+				C5A2789D077876C8C0D0541858005930 /* Sources */,
+				997B55C427450F162D44707AED421CB4 /* Frameworks */,
+				1C4D0A6E4BAA3FB0074EFE86C2C8076D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -254,26 +335,8 @@
 			);
 			name = "WYACodeReview-WYACodeReview";
 			productName = "WYACodeReview-WYACodeReview";
-			productReference = 89F0BFFD99F15D9FBEF655A99BCBD4AA /* WYACodeReview.bundle */;
+			productReference = D02D29EBB8C9486EDB2F20A8B6706D80 /* WYACodeReview.bundle */;
 			productType = "com.apple.product-type.bundle";
-		};
-		8A9E27CB9193601FC41C795DC59C8179 /* Pods-WYACodeReview_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 97460876421EC8D5584DB8B48D819639 /* Build configuration list for PBXNativeTarget "Pods-WYACodeReview_Tests" */;
-			buildPhases = (
-				0C6C845B436A5AEB434C278431545304 /* Sources */,
-				41AAAA628DF08FF1A559B9D9CDDD62EC /* Frameworks */,
-				01867206FE26B8E2FC52E7D2C04807AB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1563B716245BE1AE9315DEB58ABCFDED /* PBXTargetDependency */,
-			);
-			name = "Pods-WYACodeReview_Tests";
-			productName = "Pods-WYACodeReview_Tests";
-			productReference = A91F0392D4879648740485769B4BCB8B /* Pods_WYACodeReview_Tests.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -292,55 +355,73 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C848A374C6B03287CB134187EA54C20C /* Products */;
+			productRefGroup = CD5C3B5235904674C9C064B8322B3486 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A9E27CB9193601FC41C795DC59C8179 /* Pods-WYACodeReview_Tests */,
-				265B1851F82494C3145AB92D1B7B45F4 /* WYACodeReview-WYACodeReview */,
+				A39979EC420E2E54F16B0ABA2685621F /* Pods-WYACodeReview_Tests */,
+				16B5F041DA9A89B2934F135D52B24C33 /* WYACodeReview */,
+				CCB42D1FA6BCBF36BFFAF580A4F0C59B /* WYACodeReview-WYACodeReview */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		32A7CED48514DC373925F9B3F68DE2A6 /* Resources */ = {
+		1C4D0A6E4BAA3FB0074EFE86C2C8076D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA32CA7C6AAC3EADB9FBB9F8AC6CB41 /* bin in Resources */,
-				4447C08501DA8F1DBB61E6B5C29A2D74 /* CocoaPodsDummy.m in Resources */,
-				76A6F784A523EF2335D7F3A117252E78 /* Contributing.md in Resources */,
-				19573B6E8C2710995F9DFB270F4202E4 /* custom in Resources */,
-				463024706934C28A1C890ACB0EA58C81 /* format-objc-file-dry-run.sh in Resources */,
-				083DE8B7EAEFA17BAAAA26F034D6034E /* format-objc-file.sh in Resources */,
-				826FE3F4DC6A92C25D99D7DF85051C7F /* format-objc-files-in-repo.sh in Resources */,
-				EB5B6205C41E0D6EC79B8C4DC1AE5962 /* format-objc-files.sh in Resources */,
-				83398326F3E49E3EF783651DEFF2B6D7 /* format-objc-hook in Resources */,
-				F7801C452C29AA13B585B1648650BE4C /* format-objc-mobuild in Resources */,
-				FDC77D8D740E234C5136E61E0FA84A44 /* Gemfile in Resources */,
-				1630726CCDCE0251418A3C2CB1C2AA7B /* Gemfile.lock in Resources */,
-				7749BC82E0976BAB2E73ADCB8C9C7B77 /* lib in Resources */,
-				9BF02F66CD95C0824CA7493A525DF865 /* LICENSE in Resources */,
-				C92473E02BEEB3AFC0D143B229AF6278 /* README.md in Resources */,
-				47716282C5AFAE93BF87FE62FA3C0F8F /* setup-repo.sh in Resources */,
-				90BD590288305BCFEB46DDCB7CA4EEA4 /* SpaceCommander.podspec in Resources */,
-				98515F100F5741B265C70EE92DC79714 /* test.sh in Resources */,
-				3A6D7796B93C81F1562D7C6ADAAEE032 /* Testing Support in Resources */,
+				AA0DDB639FA850E70EFFE5E4AE80A725 /* bin in Resources */,
+				43F6AC520C19BB2167712A4EF4BF1244 /* CocoaPodsDummy.m in Resources */,
+				BC1D91BE2E39904846E17FC849BBFBB5 /* Contributing.md in Resources */,
+				C13F17B8DA625C98EF6B547936C25365 /* custom in Resources */,
+				EF3A56F371FD135B93B813E11C072033 /* format-objc-file-dry-run.sh in Resources */,
+				B7C03B64A2EF81A09909AE1F701AFAD5 /* format-objc-file.sh in Resources */,
+				73F6CE833F5D9FED3EDEABEF09F8C7A7 /* format-objc-files-in-repo.sh in Resources */,
+				B8A24C1E083B707AF97D24E53F7FB141 /* format-objc-files.sh in Resources */,
+				A60D3F6A3B611586342538D2EE43388B /* format-objc-hook in Resources */,
+				CBCB2C492F2968A76901C4DCDF8584D5 /* format-objc-mobuild in Resources */,
+				2771002587FECCC02D9815EA12364298 /* Gemfile in Resources */,
+				0D9841A371094BD4A8FB29F5D3927B85 /* Gemfile.lock in Resources */,
+				71C85D15DDDF265A40D7D777F6834046 /* lib in Resources */,
+				42A8A989CBA0DF1B72C5E6254A4827E7 /* LICENSE in Resources */,
+				394FEE456CA08C6ACCB938582E1AF0E9 /* README.md in Resources */,
+				47DFF6F19915A864325D68E40B8416A1 /* setup-repo.sh in Resources */,
+				FA6911C82B2402CD710FC8EC6C70469F /* SpaceCommander.podspec in Resources */,
+				7DE3C4D8A73E6B480BDEB2189F3A7216 /* test.sh in Resources */,
+				21B9C09403BD604742438848D354D3F2 /* Testing Support in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27A90E145FD4B810884EC3BE84F63F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BF88C52A51A53F7391BFE294B52737 /* WYACodeReview.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0C6C845B436A5AEB434C278431545304 /* Sources */ = {
+		344D99B718BA9EE0ABD8EADF9D7C63B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0809BA58EFB051C35D26AE291FCBD719 /* Pods-WYACodeReview_Tests-dummy.m in Sources */,
+				90827DB389AE70BBD961670F6C7E0143 /* ReplaceMe.m in Sources */,
+				CEE12385DDFAA6EA52EFE36E5CF8D442 /* WYACodeReview-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4154E335E97FCDBDE15905E2C44710A0 /* Sources */ = {
+		B2F2FCCCB98C0B3943AFF56695618B92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03DF3E03E86C1C395934AE33ADF5865 /* Pods-WYACodeReview_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A2789D077876C8C0D0541858005930 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -350,17 +431,85 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1563B716245BE1AE9315DEB58ABCFDED /* PBXTargetDependency */ = {
+		AB9583B3D6E9560C0AB8BACC52649E14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "WYACodeReview-WYACodeReview";
-			target = 265B1851F82494C3145AB92D1B7B45F4 /* WYACodeReview-WYACodeReview */;
-			targetProxy = 289CF62AB198B5297C744E6984609641 /* PBXContainerItemProxy */;
+			target = CCB42D1FA6BCBF36BFFAF580A4F0C59B /* WYACodeReview-WYACodeReview */;
+			targetProxy = D00A9D1CBC02A9E5B70DFE0F38B3BDE8 /* PBXContainerItemProxy */;
+		};
+		B83072FCE8B26019E0920DDCC17B79ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WYACodeReview;
+			target = 16B5F041DA9A89B2934F135D52B24C33 /* WYACodeReview */;
+			targetProxy = 5A5CF19B94050D03B453190CE6543AFC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3671E0E227581AB4D94064BDB5DA6964 /* Release */ = {
+		2B2D64C5855C52EDBBE5D144EA784F8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A8BD286B384CF9088031980EEB2A3B /* WYACodeReview.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WYACodeReview/WYACodeReview-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYACodeReview/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYACodeReview/WYACodeReview.modulemap";
+				PRODUCT_MODULE_NAME = WYACodeReview;
+				PRODUCT_NAME = WYACodeReview;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C018ADC9ECC12D17D74613638B484F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A8BD286B384CF9088031980EEB2A3B /* WYACodeReview.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WYACodeReview/WYACodeReview-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYACodeReview/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYACodeReview/WYACodeReview.modulemap";
+				PRODUCT_MODULE_NAME = WYACodeReview;
+				PRODUCT_NAME = WYACodeReview;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38D363ED5060776CE759936C6E32D771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A8BD286B384CF9088031980EEB2A3B /* WYACodeReview.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WYACodeReview";
@@ -373,6 +522,56 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		3F6C95B7A8C824A766AD832C57B92BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4745C78A756D6C1C1EC0FE8097368D75 /* Pods-WYACodeReview_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYACodeReview_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYACodeReview_Tests/Pods-WYACodeReview_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D589727519BFCB68C5DBE057D70136A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A8BD286B384CF9088031980EEB2A3B /* WYACodeReview.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WYACodeReview";
+				INFOPLIST_FILE = "Target Support Files/WYACodeReview/ResourceBundle-WYACodeReview-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = WYACodeReview;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -437,40 +636,6 @@
 			};
 			name = Debug;
 		};
-		8F917DF65322A5333BAEC971E6F031F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4745C78A756D6C1C1EC0FE8097368D75 /* Pods-WYACodeReview_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WYACodeReview_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WYACodeReview_Tests/Pods-WYACodeReview_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -529,7 +694,7 @@
 			};
 			name = Release;
 		};
-		B7E3087E8335B84B255E5323032ECFCA /* Debug */ = {
+		F10E4F147CBA71A328212C30F1EBC649 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D4BF63C4B077C18D3C4462C4B6827E67 /* Pods-WYACodeReview_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -562,33 +727,9 @@
 			};
 			name = Debug;
 		};
-		E763368C8B366564A4EEDB27B61DE1BA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/WYACodeReview";
-				INFOPLIST_FILE = "Target Support Files/WYACodeReview/ResourceBundle-WYACodeReview-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = WYACodeReview;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D09D8A40F528C08B9666EAC67911430 /* Build configuration list for PBXNativeTarget "WYACodeReview-WYACodeReview" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E763368C8B366564A4EEDB27B61DE1BA /* Debug */,
-				3671E0E227581AB4D94064BDB5DA6964 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -598,11 +739,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97460876421EC8D5584DB8B48D819639 /* Build configuration list for PBXNativeTarget "Pods-WYACodeReview_Tests" */ = {
+		5B54E001FFAD9155D93DDEAA6EBF8030 /* Build configuration list for PBXNativeTarget "WYACodeReview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7E3087E8335B84B255E5323032ECFCA /* Debug */,
-				8F917DF65322A5333BAEC971E6F031F4 /* Release */,
+				2B2D64C5855C52EDBBE5D144EA784F8F /* Debug */,
+				2C018ADC9ECC12D17D74613638B484F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E80E6BFF60AA6AB790286F220740218 /* Build configuration list for PBXNativeTarget "WYACodeReview-WYACodeReview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D589727519BFCB68C5DBE057D70136A /* Debug */,
+				38D363ED5060776CE759936C6E32D771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD2EBEB2644B97B887EA900EB99F785 /* Build configuration list for PBXNativeTarget "Pods-WYACodeReview_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10E4F147CBA71A328212C30F1EBC649 /* Debug */,
+				3F6C95B7A8C824A766AD832C57B92BA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
