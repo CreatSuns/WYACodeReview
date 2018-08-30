@@ -1,5 +1,5 @@
 PODS:
-  - WYACodeReview (0.1.0)
+  - WYACodeReview (0.1.1)
 
 DEPENDENCIES:
   - WYACodeReview (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WYACodeReview: e77732706317521d9914a94d31d39c7725494673
+  WYACodeReview: f7c20490f01ad93c546e5a534735b265407b4c5b
 
 PODFILE CHECKSUM: ca52c4487f45c6f474e6d31330e9e9db7005a73f
 

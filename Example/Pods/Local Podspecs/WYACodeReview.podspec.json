@@ -1,7 +1,7 @@
 {
   "name": "WYACodeReview",
-  "version": "0.1.0",
-  "summary": "A short description of WYACodeReview.",
+  "version": "0.1.1",
+  "summary": "this is WYACodeReview.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/CreatSuns/WYACodeReview.git",
   "license": {
@@ -12,8 +12,8 @@
     "wya": "1228506851@qq.com"
   },
   "source": {
-    "git": "https://github.com/1228506851@qq.com/WYACodeReview.git",
-    "tag": "0.1.0\n      "
+    "git": "https://github.com/CreatSuns/WYACodeReview.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
