@@ -1,0 +1,6 @@
+framework module Pods_WYACodeReview_Tests {
+  umbrella header "Pods-WYACodeReview_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

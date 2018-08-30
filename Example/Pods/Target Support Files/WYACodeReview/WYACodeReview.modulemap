@@ -1,0 +1,6 @@
+framework module WYACodeReview {
+  umbrella header "WYACodeReview-umbrella.h"
+
+  export *
+  module * { export * }
+}
