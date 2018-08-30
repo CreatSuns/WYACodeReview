@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WYACodeReview_Tests' do
+  pod 'WYACodeReview', :path => '../'
+  
+  
+end
